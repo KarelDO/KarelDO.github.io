@@ -52,7 +52,7 @@
           <span class="font-bold">Web Development</span>. I'm also an incoming
           PhD student at Ghent University.
         </p>
-        <p class="text-center md:text-left mt-10 md:mt-4">
+        <p class="text-center md:text-left mt-5 md:mt-4">
           <img
             src="/assets/location.svg"
             alt="location-icon"
@@ -117,6 +117,7 @@
           items-center
           md:flex-row
           md:hidden
+          pb-5
         "
       >
         <nuxt-link to="/resume">
