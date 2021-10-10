@@ -1,2 +1,3 @@
-# ignore projects for now
+# ignore projects and contact for now
 pages/project*.vue
+pages/contact.vue

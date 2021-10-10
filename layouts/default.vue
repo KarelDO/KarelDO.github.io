@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- splash to hide while during hydration -->
+    <splash/>
     <!-- TODO: use semantic html  -->
     <!-- navbar  -->
     <div class="flex flex-col min-h-screen justify-between">
@@ -168,7 +170,9 @@
 </template>
 
 <script>
+import splash from './splash.vue';
 export default {
+  components: { splash },
   data() {
     return {
       view: {
@@ -248,5 +252,9 @@ nav.scrolled {
   opacity: 0.3;
   z-index: 199;
   transition: ease 0.3s;
+}
+
+a.nuxt-link-exact-active {
+  font-weight: bold;
 }
 </style>

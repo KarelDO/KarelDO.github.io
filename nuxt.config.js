@@ -8,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'tmp-personal-page',
+    title: "Karel D'Oosterlinck",
     htmlAttrs: {
       lang: 'en'
     },
