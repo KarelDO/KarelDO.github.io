@@ -117,7 +117,7 @@
           items-center
           md:flex-row
           md:hidden
-          pb-10
+          pb-16
         "
       >
         <nuxt-link to="/resume">
