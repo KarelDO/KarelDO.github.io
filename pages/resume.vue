@@ -540,61 +540,61 @@ export default {
       topBanner,
       1,
       { y: -50, opacity: 0.0, ease: "power2.out" },
-      "+=0.5"
+      "+=0.25"
     );
     timeline.from(
       education,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       line0,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       awards,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       line1,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       experiences,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       line1dot5,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       skills,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       line2,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
     timeline.from(
       languages,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "<0.10"
     );
 
     timeline.play();

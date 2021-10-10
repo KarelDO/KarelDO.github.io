@@ -133,7 +133,7 @@ export default {
       topBanner,
       1,
       { y: -50, opacity: 0.0, ease: "power2.out" },
-      "+=0.5"
+      "+=0.25"
     );
     timeline.from(
       research,

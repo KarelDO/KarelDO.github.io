@@ -405,14 +405,14 @@ export default {
     timeline.from(
       avatarImg,
       1,
-      { x: -200, y: -50, rotation: -90, opacity: 0.0, ease: "power2.out" },
-      "+=1.0"
+      { x: -50, y: -50, rotation: -10, opacity: 0.0, ease: "power2.out" },
+      "+=0.25"
     );
     timeline.from(
       wavingHand,
       1,
       { x: 50, y: 5, rotation: 90, opacity: 0.0, ease: "power2.out" },
-      "-=0.5"
+      "-=1.0"
     );
     timeline.to(wavingHand, 1, {
       y: -3,
@@ -426,19 +426,19 @@ export default {
       buttons,
       1,
       { y: 50, opacity: 0.0, ease: "power2.out" },
-      "-=0.5"
+      "-=0.0"
     );
-    timeline.from(
-      featured,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "-=1.0"
-    );
+    // timeline.from(
+    //   featured,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "-=1.0"
+    // );
     timeline.from(
       text1,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
+      "-=1.5"
     );
     timeline.from(
       text2,
