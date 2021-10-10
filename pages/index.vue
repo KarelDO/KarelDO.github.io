@@ -112,12 +112,12 @@
         ref="buttons"
         class="
           flex flex-col
-          h-1/4
+          h-1/3
           justify-around
           items-center
           md:flex-row
           md:hidden
-          pb-5
+          pb-10
         "
       >
         <nuxt-link to="/resume">
