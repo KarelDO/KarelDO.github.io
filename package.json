@@ -10,7 +10,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "heroku-postbuild": "nuxt generate"
   },
   "dependencies": {
     "core-js": "^3.15.1",
