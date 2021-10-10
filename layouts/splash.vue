@@ -16,7 +16,7 @@ export default {
         // If the splash screen should be shown.
 
         if (process.client) {
-            setTimeout(() => {this.show = false}, 0)
+            setTimeout(() => {this.show = false}, 500)
         }
 
     }

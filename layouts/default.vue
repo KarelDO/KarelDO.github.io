@@ -220,12 +220,13 @@ body {
 }
 
 nav {
-  z-index: 10;
+  z-index: 0;
   background-color: #fff7ed;
 }
 
 nav.scrolled {
   @apply shadow-2xl;
+  z-index: 10;
   border-bottom: 0px;
 }
 
