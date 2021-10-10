@@ -1,7 +1,7 @@
 <template>
   <div class="pt-10 divide divide-gray-300">
     <!-- Featured project -->
-    <router-link to="/project-1">
+    <nuxt-link to="/project-1">
       <div ref="featuredProject" class="mt-10">
         <p class="font-color-1 opacity-80 font-bold text-lg">
           🌟 Featured project
@@ -45,7 +45,7 @@
           platform for all the students at my university.
         </p>
       </div>
-    </router-link>
+    </nuxt-link>
     <hr ref="line1" class="my-10" />
     <!-- Current focus -->
     <div ref="currentFocus">

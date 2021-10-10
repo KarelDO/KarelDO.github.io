@@ -9,24 +9,24 @@
       >
         <div class="flex w-11/12 md:w-5/6 xl:w-4/6 mx-auto">
           <!-- Non-Mobile links -->
-          <router-link to="/">
+          <nuxt-link to="/">
             <p class="text-xl font-color-1 font-semibold">
               Karel D'Oosterlinck
             </p>
-          </router-link>
+          </nuxt-link>
           <div class="hidden md:flex ml-auto space-x-6">
-            <router-link to="/resume">
+            <nuxt-link to="/resume">
               <p class="text-lg font-color-1 hover:underline">Resume</p>
-            </router-link>
-            <router-link to="/research">
+            </nuxt-link>
+            <nuxt-link to="/research">
               <p class="text-lg font-color-1 hover:underline">Research</p>
-            </router-link>
-            <!-- <router-link to="/projects">
+            </nuxt-link>
+            <!-- <nuxt-link to="/projects">
             <p class="text-lg font-color-1 hover:underline">Projects</p>
-          </router-link> -->
-            <!-- <router-link to="/contact">
+          </nuxt-link> -->
+            <!-- <nuxt-link to="/contact">
             <p class="text-lg font-color-1 hover:underline">Contact</p>
-          </router-link> -->
+          </nuxt-link> -->
             <a href="https://twitter.com/KarelDoostrlnck" target="_blank">
               <img
                 class="inline-block h-4 opacity-60"
@@ -124,12 +124,12 @@
         <nuxt-link to="/research" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Research</p>
         </nuxt-link>
-        <!-- <router-link to="/projects" @click="drawerVisible = false">
+        <!-- <nuxt-link to="/projects" @click="drawerVisible = false">
         <p class="text-lg font-color-1 hover:underline">Projects</p>
-      </router-link> -->
-        <!-- <router-link to="/contact" @click="drawerVisible = false">
+      </nuxt-link> -->
+        <!-- <nuxt-link to="/contact" @click="drawerVisible = false">
         <p class="text-lg font-color-1 hover:underline">Contact</p>
-      </router-link> -->
+      </nuxt-link> -->
         <hr class="w-2/3" />
         <a
           href="https://twitter.com/KarelDoostrlnck"
@@ -247,6 +247,6 @@ nav.scrolled {
   background: #000;
   opacity: 0.3;
   z-index: 199;
-  transition: all 0.3s;
+  transition: ease 0.3s;
 }
 </style>

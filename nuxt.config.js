@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'server',
+  target: 'static',
 
   server: {
     host: '0.0.0.0' // required so the dev server is accessible from windows when running in wsl2

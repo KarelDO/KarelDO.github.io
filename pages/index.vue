@@ -63,8 +63,8 @@
             Ghent, Belgium
           </span>
         </p>
-        <div ref="buttons" class="hidden mt-5 flex-row md:flex">
-          <router-link to="/resume">
+        <div class="hidden mt-5 flex-row md:flex">
+          <nuxt-link to="/resume">
             <button
               class="
                 bg-color-1
@@ -83,8 +83,8 @@
             >
               View resume
             </button>
-          </router-link>
-          <router-link to="/research">
+          </nuxt-link>
+          <nuxt-link to="/research">
             <button
               class="
                 border-color-1
@@ -104,7 +104,7 @@
             >
               View research
             </button>
-          </router-link>
+          </nuxt-link>
         </div>
       </div>
       <!-- Call to action -->
@@ -119,8 +119,9 @@
           md:hidden
         "
       >
-        <router-link to="/resume">
+        <nuxt-link to="/resume">
           <button
+            to="/resume"
             class="
               bg-color-1
               w-40
@@ -137,8 +138,8 @@
           >
             View resume
           </button>
-        </router-link>
-        <router-link to="/research">
+        </nuxt-link>
+        <nuxt-link to="/research">
           <button
             class="
               border-color-1
@@ -157,7 +158,7 @@
           >
             View research
           </button>
-        </router-link>
+        </nuxt-link>
         <button
           @click="scrollToAbout()"
           class="
@@ -200,7 +201,7 @@
           Designing and Building a knowledge-sharing platform for 40.000+
           students
         </p>
-        <router-link to="/project-1">
+        <nuxt-link to="/project-1">
           <p
             class="font-color-1 text-right opacity-80 font-bold hover:underline"
           >
@@ -211,7 +212,7 @@
               class="inline transform rotate-180 h-5 w-5"
             />
           </p>
-        </router-link>
+        </nuxt-link>
       </div>
     </div> -->
 
@@ -241,16 +242,12 @@
           internship at
           <a class="underline" href="https://www.waylay.io">Waylay.io</a> -
           builing no-code/low-code automation software. In parallel, I'm also
-          coordinating the development of a
-          <!-- <a class="underline" href="/project-1">
-            knowledge-sharing application</a
-          > -->
-          knowledge-sharing application which will be used by 40.000+ students
+          coordinating the development of a knowledge-sharing application which will be used by 40.000+ students
           (more information coming soon). Learn more about me by
-          <a href="/resume" class="underline"> viewing my resume</a>
+          <nuxt-link to="/resume" class="underline"> viewing my resume</nuxt-link>
           or continue reading about my projects and hobbies.
         </p>
-        <!-- <router-link to="/resume">
+        <!-- <nuxt-link to="/resume">
           <p
             class="text-left mt-2 font-color-1 opacity-80 text-lg font-bold hover:underline"
           >
@@ -261,7 +258,7 @@
               class="inline-block transform rotate-180 h-5 w-5"
             />
           </p>
-        </router-link> -->
+        </nuxt-link> -->
       </div>
 
       <div ref="text2" class="mt-8">
@@ -270,9 +267,9 @@
           As mentioned in my short bio, I'm an incoming PhD students. I'm
           intruiged by Machine Learning and Artificial Intelligence, but Natural
           Language Processing specifically captures my interests.
-          <a href="/research" class="underline"> View my initial works. </a>
+          <nuxt-link to="/research" class="underline"> View my initial works. </nuxt-link>
         </p>
-        <!-- <router-link to="/research">
+        <!-- <nuxt-link to="/research">
           <p
             class="text-left mt-2 font-color-1 opacity-80 text-lg font-bold hover:underline"
           >
@@ -283,7 +280,7 @@
               class="inline-block transform rotate-180 h-5 w-5"
             />
           </p>
-        </router-link> -->
+        </nuxt-link> -->
       </div>
 
       <div ref="text3" class="mt-8">
@@ -309,7 +306,7 @@
           for our university's 40.000+ students or read about some of my
           university projects.
         </p>
-        <router-link to="/projects">
+        <nuxt-link to="/projects">
           <p
             class="text-right font-color-1 opacity-80 font-bold hover:underline"
           >
@@ -320,7 +317,7 @@
               class="inline-block transform rotate-180 h-5 w-5"
             />
           </p>
-        </router-link>
+        </nuxt-link>
       </div> -->
 
       <div ref="text4" class="mt-8">
@@ -369,7 +366,6 @@ let timeline = gsap.timeline({
 });
 
 if (process.client) {
-  console.log("hell yea")
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty("--vh", `${vh}px`);
 }
@@ -426,7 +422,7 @@ export default {
       buttons,
       1,
       { y: 50, opacity: 0.0, ease: "power2.out" },
-      "-=0.0"
+      "-=0.5"
     );
     // timeline.from(
     //   featured,

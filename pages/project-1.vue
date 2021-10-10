@@ -2,12 +2,12 @@
   <div class="pt-10">
     <!-- Featured project -->
     <div ref="featuredProject" class="mt-10">
-      <router-link to="/projects" class="flex items-center">
+      <nuxt-link to="/projects" class="flex items-center">
         <img src="/static/assets/left-arrow.png" alt="left-arrow" class="h-5 w-5 mr-1" />
         <p class="font-color-1 opacity-80 font-bold text-lg">
           back to projects
         </p>
-      </router-link>
+      </nuxt-link>
       <p class="font-color-1 font-bold text-3xl">
         Building a knowledge-sharing platform for 60.000 students
       </p>
