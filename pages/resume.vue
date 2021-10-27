@@ -440,7 +440,7 @@
         General Computer Science Skills
       </p>
       <p class="text-gray-900 text-lg text-left">
-        Python, C, C++, JavaScript, HTML, CSS, SQL, Java (a bit), Linux, Docker, Google Cloud Platform, OpenFaaS
+        Python, C, C++, JavaScript, HTML, CSS, SQL, Linux, Docker
       </p>
       <p class="font-color-1 mt-10 font-bold text-2xl">
         Artificial Intelligence
@@ -448,7 +448,7 @@
       <p class="text-gray-900 text-lg text-left">
         Tensorflow, PyTorch, Scikit-learn, Huggingface Transformers
       </p>
-      <p class="font-color-1 mt-10 font-bold text-2xl">Web Development</p>
+      <p class="font-color-1 mt-10 font-bold text-2xl">Full Stack Web Development</p>
       <p class="text-gray-900 text-lg text-left">
         Vue.js, Nuxt.js, Vuetify, tailwind.css, Django, Flask
       </p>

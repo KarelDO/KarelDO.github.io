@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- splash to hide while during hydration -->
-    <splash/>
+    <splash />
     <!-- TODO: use semantic html  -->
     <!-- navbar  -->
     <div class="flex flex-col min-h-screen justify-between">
@@ -23,6 +23,9 @@
             <nuxt-link to="/research">
               <p class="text-lg font-color-1 hover:underline">Research</p>
             </nuxt-link>
+            <a href="https://medium.com/@kareldoosterlinck">
+              <p class="text-lg font-color-1 hover:underline">Blog</p>
+            </a>
             <!-- <nuxt-link to="/projects">
             <p class="text-lg font-color-1 hover:underline">Projects</p>
           </nuxt-link> -->
@@ -126,6 +129,12 @@
         <nuxt-link to="/research" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Research</p>
         </nuxt-link>
+        <a
+          href="https://medium.com/@kareldoosterlinck"
+          @click.native="drawerVisible = false"
+        >
+          <p class="text-lg font-color-1 hover:underline">Blog</p>
+        </a>
         <!-- <nuxt-link to="/projects" @click="drawerVisible = false">
         <p class="text-lg font-color-1 hover:underline">Projects</p>
       </nuxt-link> -->
@@ -170,7 +179,7 @@
 </template>
 
 <script>
-import splash from './splash.vue';
+import splash from "./splash.vue";
 export default {
   components: { splash },
   data() {
@@ -201,8 +210,8 @@ export default {
     },
 
     testClick() {
-        console.log("clicked me!")
-    }
+      console.log("clicked me!");
+    },
   },
 };
 </script>
