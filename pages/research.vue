@@ -92,7 +92,7 @@
         </p>
         <div class="flex space-x-3 mt-2">
           <a
-            href="/Thesis_Karel_DOosterlinck.pdf"
+            href="/assets/Thesis_Karel_DOosterlinck.pdf"
             download="Thesis_Karel_DOosterlinck.pdf"
           >
             <div

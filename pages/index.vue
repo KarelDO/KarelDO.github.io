@@ -45,12 +45,12 @@
         class="text-lg font-color-1 text-center md:text-left md:ml-8 md:text-xl"
       >
         <p>
-          <span class="font-bold">Hello there!</span> I’m a computer science
-          engineer passionate about
+          <span class="font-bold">Hello there!</span> I’m a PhD student in NLP at Ghent University.
+          
+          I'm passionate about
           <span class="font-bold">Machine Learning</span>,
-          <span class="font-bold">Natural Language Processing</span> and
-          <span class="font-bold">Web Development</span>. I'm also an incoming
-          PhD student at Ghent University.
+          and
+          <span class="font-bold">Web Development</span>. 
         </p>
         <p class="text-center md:text-left mt-5 md:mt-4">
           <img
