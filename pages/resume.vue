@@ -84,7 +84,7 @@
         </div>
         <!-- <p class="text-gray-500">Ghent University, Belgium</p> -->
         <p class="text-lg pt-2 text-gray-900">
-          One of 9 finalists for the student of the year award hosten by the city of Ghent for my non-profit student voluntueering.
+          One of 9 finalists for the student of the year award hosted by the city of Ghent for my non-profit student voluntueering.
         </p>
       </div>
       <div class="mt-10">

@@ -265,9 +265,9 @@
       <div ref="text2" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Research</p>
         <p class="text-lg font-color-1">
-          As mentioned in my short bio, I'm an incoming PhD students. I'm
+          As mentioned in my short bio, I'm an incoming PhD student. I'm
           intruiged by Machine Learning and Artificial Intelligence, but Natural
-          Language Processing specifically captures my interests.
+          Language Processing specifically captures my interest.
           <nuxt-link to="/research" class="underline"> View my initial works. </nuxt-link>
         </p>
         <!-- <nuxt-link to="/research">
