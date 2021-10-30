@@ -472,7 +472,8 @@ export default {
 <style>
 /* Hack to be able to render inner shadow */
 .avatar-img {
-  background-image: url("/assets/karel_cropped_square-min.jpg");
+  /* background-image: url("/assets/karel_cropped_square-min.jpg"); */
+  background-image: url("/assets/karel_background-min.jpg");
   background-size: contain;
   /* border: 8px solid  #FFF7ED; */
   /* border: 4px solid  #6B5B7A; */
