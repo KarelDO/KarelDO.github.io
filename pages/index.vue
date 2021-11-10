@@ -231,14 +231,7 @@
           >
             prof. Thomas Demeester</a
           >. 
-          
-          <!-- My goal for the foreseeable future is to gain more experience in
-          research and academia. Currently, I'm pursuing a 6-week NLP research
-          internship at
-          <a class="underline" href="https://www.waylay.io">Waylay.io</a> -
-          builing no-code/low-code automation software. In parallel, I'm also
-          coordinating the development of a knowledge-sharing application which
-          will be used by 40.000+ students (more information coming soon).  -->
+
 
           Learn more about me by
           <nuxt-link to="/resume" class="underline">
