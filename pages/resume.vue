@@ -450,7 +450,7 @@
       </p>
       <p class="font-color-1 mt-10 font-bold text-2xl">Full Stack Web Development</p>
       <p class="text-gray-900 text-lg text-left">
-        Vue.js, Nuxt.js, Vuetify, tailwind.css, Django, Flask
+        Vue.js, Nuxt.js, Vuetify, tailwind.css, Django, Flask, Firebase
       </p>
     </div>
     

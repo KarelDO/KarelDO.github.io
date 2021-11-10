@@ -8,10 +8,7 @@
         h-screen
         justify-around
         items-center
-        md:flex-row
-        md:h-1/3
-        md:justify-start
-        md:mt-12
+        md:flex-row md:h-1/3 md:justify-start md:mt-12
       "
     >
       <!-- Avatar -->
@@ -23,8 +20,7 @@
               avatar-img
               h-52
               w-52
-              md:h-60
-              md:w-60
+              md:h-60 md:w-60
               rounded-full
               drop-and-inner-shadows
             "
@@ -45,12 +41,10 @@
         class="text-lg font-color-1 text-center md:text-left md:ml-8 md:text-xl"
       >
         <p>
-          <span class="font-bold">Hello there!</span> I’m a PhD student in NLP at Ghent University.
-          
-          I'm passionate about
-          <span class="font-bold">Machine Learning</span>,
-          and
-          <span class="font-bold">Web Development</span>. 
+          <span class="font-bold">Hello there!</span> I’m a PhD student in
+          <span class="font-bold">NLP</span> at Ghent University. I'm passionate
+          about <span class="font-bold">Machine Learning</span>, and
+          <span class="font-bold">Web Development</span>.
         </p>
         <p class="text-center md:text-left mt-5 md:mt-4">
           <img
@@ -115,8 +109,7 @@
           h-1/3
           justify-around
           items-center
-          md:flex-row
-          md:hidden
+          md:flex-row md:hidden
           pb-16
         "
       >
@@ -223,8 +216,7 @@
         <p class="text-lg font-color-1">
           Hi! I’m a computer science engineer (major AI) passionate about
           Machine Learning, Natural Language Processing and Web Design. I
-          recently graduated from Ghent University and will be starting a PhD
-          soon at the
+          recently graduated from Ghent University and started as a PhD student at the
           <a class="underline" href="https://ugentt2k.github.io">
             Text to Knowledge</a
           >
@@ -238,14 +230,20 @@
             href="https://tdmeeste.github.io/publications.html"
           >
             prof. Thomas Demeester</a
-          >. My goal for the foreseeable future is to gain more experience in
+          >. 
+          
+          <!-- My goal for the foreseeable future is to gain more experience in
           research and academia. Currently, I'm pursuing a 6-week NLP research
           internship at
           <a class="underline" href="https://www.waylay.io">Waylay.io</a> -
           builing no-code/low-code automation software. In parallel, I'm also
-          coordinating the development of a knowledge-sharing application which will be used by 40.000+ students
-          (more information coming soon). Learn more about me by
-          <nuxt-link to="/resume" class="underline"> viewing my resume</nuxt-link>
+          coordinating the development of a knowledge-sharing application which
+          will be used by 40.000+ students (more information coming soon).  -->
+
+          Learn more about me by
+          <nuxt-link to="/resume" class="underline">
+            viewing my resume</nuxt-link
+          >
           or continue reading about my projects and hobbies.
         </p>
         <!-- <nuxt-link to="/resume">
@@ -265,10 +263,12 @@
       <div ref="text2" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Research</p>
         <p class="text-lg font-color-1">
-          As mentioned in my short bio, I'm an incoming PhD student. I'm
+          As mentioned in my short bio, I just started as a PhD student. I'm
           intruiged by Machine Learning and Artificial Intelligence, but Natural
           Language Processing specifically captures my interest.
-          <nuxt-link to="/research" class="underline"> View my initial works. </nuxt-link>
+          <nuxt-link to="/research" class="underline">
+            View my initial works.
+          </nuxt-link>
         </p>
         <!-- <nuxt-link to="/research">
           <p
