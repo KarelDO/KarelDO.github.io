@@ -525,79 +525,79 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
-let timeline = gsap.timeline({
-  paused: true,
-});
+// let timeline = gsap.timeline({
+//   paused: true,
+// });
 
 export default {
   mounted() {
-    const { topBanner, education, awards, experiences, skills, languages, line0, line1, line1dot5, line2 } =
-      this.$refs;
+    // const { topBanner, education, awards, experiences, skills, languages, line0, line1, line1dot5, line2 } =
+    //   this.$refs;
 
-    timeline.from(
-      topBanner,
-      1,
-      { y: -50, opacity: 0.0, ease: "power2.out" },
-      "+=0.25"
-    );
-    timeline.from(
-      education,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      line0,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      awards,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      line1,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      experiences,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      line1dot5,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      skills,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      line2,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
-    timeline.from(
-      languages,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.10"
-    );
+    // timeline.from(
+    //   topBanner,
+    //   1,
+    //   { y: -50, opacity: 0.0, ease: "power2.out" },
+    //   "+=0.25"
+    // );
+    // timeline.from(
+    //   education,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   line0,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   awards,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   line1,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   experiences,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   line1dot5,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   skills,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   line2,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
+    // timeline.from(
+    //   languages,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.10"
+    // );
 
-    timeline.play();
+    // timeline.play();
   },
 };
 </script>

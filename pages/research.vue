@@ -119,30 +119,30 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
-let timeline = gsap.timeline({
-  paused: true,
-});
+// let timeline = gsap.timeline({
+//   paused: true,
+// });
 
 export default {
   mounted() {
-    const { topBanner, research } = this.$refs;
+    // const { topBanner, research } = this.$refs;
 
-    timeline.from(
-      topBanner,
-      1,
-      { y: -50, opacity: 0.0, ease: "power2.out" },
-      "+=0.25"
-    );
-    timeline.from(
-      research,
-      1,
-      { x: -50, opacity: 0.0, ease: "power2.out" },
-      "<0.25"
-    );
+    // timeline.from(
+    //   topBanner,
+    //   1,
+    //   { y: -50, opacity: 0.0, ease: "power2.out" },
+    //   "+=0.25"
+    // );
+    // timeline.from(
+    //   research,
+    //   1,
+    //   { x: -50, opacity: 0.0, ease: "power2.out" },
+    //   "<0.25"
+    // );
 
-    timeline.play();
+    // timeline.play();
   },
 };
 </script>
