@@ -23,6 +23,9 @@
             <nuxt-link to="/research">
               <p class="text-lg font-color-1 hover:underline">Research</p>
             </nuxt-link>
+            <nuxt-link to="/projects">
+              <p class="text-lg font-color-1 hover:underline">Projects</p>
+            </nuxt-link>
             <nuxt-link to="/mentions">
               <p class="text-lg font-color-1 hover:underline">Mentions</p>
             </nuxt-link>
@@ -131,6 +134,9 @@
         </nuxt-link>
         <nuxt-link to="/research" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Research</p>
+        </nuxt-link>
+        <nuxt-link to="/projects" @click.native="drawerVisible = false">
+          <p class="text-lg font-color-1 hover:underline">Projects</p>
         </nuxt-link>
         <nuxt-link to="/mentions" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Mentions</p>

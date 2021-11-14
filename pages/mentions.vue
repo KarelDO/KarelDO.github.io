@@ -1,5 +1,4 @@
 <template>
-  <no-ssr>
     <div class="mt-20">
       <p class="font-color-1 opacity-80 font-bold text-lg mb-2">📺 Mentions</p>
       <div class="flex flex-col space-y-4">
@@ -35,5 +34,4 @@
         ></mention>
       </div>
     </div>
-  </no-ssr>
 </template>
