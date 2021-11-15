@@ -20,6 +20,15 @@
         link="https://next.studium.gent/"
       >
       </project-card>
+      <project-card
+        title="Awesome codex"
+        category="Machine Learning"
+        image="awesome-codex.png"
+        description="List gathering demos of OpenAI's codex model."
+        madeWith=""
+        link="https://github.com/KarelDO/awesome-codex/"
+      >
+      </project-card>
     </div>
   </div>
 </template>
