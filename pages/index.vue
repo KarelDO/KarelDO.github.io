@@ -216,7 +216,8 @@
         <p class="text-lg font-color-1">
           Hi! I’m a computer science engineer (major AI) passionate about
           Machine Learning, Natural Language Processing and Web Design. I
-          recently graduated from Ghent University and started as a PhD student at the
+          recently graduated from Ghent University and started as a PhD student
+          at the
           <a class="underline" href="https://ugentt2k.github.io">
             Text to Knowledge</a
           >
@@ -230,10 +231,7 @@
             href="https://tdmeeste.github.io/publications.html"
           >
             prof. Thomas Demeester</a
-          >. 
-
-
-          Learn more about me by
+          >. Learn more about me by
           <nuxt-link to="/resume" class="underline">
             viewing my resume</nuxt-link
           >
@@ -260,8 +258,8 @@
           intruiged by Machine Learning and Artificial Intelligence, but Natural
           Language Processing specifically captures my interest.
           <nuxt-link to="/research" class="underline">
-            View my initial works.
-          </nuxt-link>
+            View my initial work</nuxt-link
+          >.
         </p>
         <!-- <nuxt-link to="/research">
           <p
@@ -281,7 +279,7 @@
         <p class="text-lg md:text-xl font-color-1 font-semibold">Projects</p>
         <p class="text-lg font-color-1">
           I enjoy working on small projects to learn additional skills or just
-          because I think they are fun. First featured project coming soon!
+          because I think they are fun. You can view some projects <nuxt-link class="underline" to="/projects">here</nuxt-link>.
         </p>
       </div>
 
