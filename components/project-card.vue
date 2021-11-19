@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex flex-col md:flex-row overflow-hidden rounded-xl box-shadow"
-  >
+  <div class="flex flex-col md:flex-row overflow-hidden rounded-xl box-shadow">
     <div class="h-60 md:w-1/2">
       <img class="object-cover object-center h-full w-full" :src="imageLink" />
     </div>
@@ -27,6 +25,13 @@
         <a class="underline text-gray-500" :href="link" target="_blank"
           >Project link</a
         >
+        <a
+          v-if="codeLink"
+          class="underline text-gray-500 ml-1"
+          :href="codeLink"
+          target="_blank"
+          >Code link</a
+        >
       </div>
     </div>
   </div>
@@ -34,7 +39,15 @@
 
 <script>
 export default {
-  props: ["title", "category", "description", "image", "link", "madeWith"],
+  props: [
+    "title",
+    "category",
+    "description",
+    "image",
+    "link",
+    "codeLink",
+    "madeWith",
+  ],
   computed: {
     imageLink: function () {
       return "../assets/" + this.image;
@@ -44,7 +57,7 @@ export default {
 </script>
 
 <style scoped>
-.box-shadow{
+.box-shadow {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
 </style>

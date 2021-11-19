@@ -9,7 +9,7 @@
         :class="{ scrolled: !view.atTopOfPage }"
         class="fixed top-0 flex w-full h-14 items-center"
       >
-        <div class="flex w-11/12 md:w-5/6 xl:w-4/6 mx-auto">
+        <div class="flex w-11/12 md:w-6/7 xl:w-4/6 mx-auto">
           <!-- Non-Mobile links -->
           <nuxt-link to="/">
             <p class="text-xl font-color-1 font-semibold">
@@ -86,6 +86,7 @@
                 src="/assets/twitter.svg"
               />
             </a>
+
             <br />
             <a
               href="https://www.linkedin.com/in/karel-doosterlinck/"
@@ -221,9 +222,7 @@ export default {
       }
     },
 
-    testClick() {
-      console.log("clicked me!");
-    },
+    testClick() {},
   },
 };
 </script>
