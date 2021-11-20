@@ -78,7 +78,7 @@
               View resume
             </button>
           </nuxt-link>
-          <nuxt-link to="/research">
+          <nuxt-link to="/projects">
             <button
               class="
                 border-color-1
@@ -96,7 +96,7 @@
                 hover:scale-110
               "
             >
-              View research
+              View projects
             </button>
           </nuxt-link>
         </div>
@@ -133,7 +133,7 @@
             View resume
           </button>
         </nuxt-link>
-        <nuxt-link to="/research">
+        <nuxt-link to="/projects">
           <button
             class="
               border-color-1
@@ -150,7 +150,7 @@
               hover:scale-110
             "
           >
-            View research
+            View projects
           </button>
         </nuxt-link>
         <button

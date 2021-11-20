@@ -36,7 +36,7 @@
         category="Web development"
         image="personal-screenshot.jpg"
         description="Featuring my portfolio on my portfolio site? Meta."
-        madeWith=""
+        madeWith="Made with Vue.js and Tailwind."
         link="https://kareldoosterlinck.com/"
       >
       </project-card>
