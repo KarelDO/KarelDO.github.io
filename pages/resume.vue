@@ -51,9 +51,44 @@
     <hr class="my-10" ref="line0" />
     <div class="mt-10" ref="awards">
       <p class="font-color-1 opacity-80 font-bold text-lg mb-2">
-        🏆 Awards, honors &#38; nominations
+        🏆 Awards, grants, honors &#38; nominations
       </p>
       <div>
+        <div class="grid grid-cols-5 md:grid-cols-7 md:gap-4">
+          <div class="col-span-5">
+            <p class="font-color-1 font-bold text-2xl">
+              BOF Doctoral Fellowship
+            </p>
+          </div>
+          <!-- <div class="flex flex-col col-span-2 justify-end">
+            <p class="text-left md:text-right text-gray-500">2021</p>
+          </div> -->
+        </div>
+        <!-- <p class="text-gray-500">Ghent University, Belgium</p> -->
+        <p class="text-lg pt-2 text-gray-900">
+          Through the Special Research Fund (BOF), Ghent University awards each
+          year about 50 PhD grants to predoctoral researchers, aimed at
+          obtaining a doctoral degree within a time span of 4 years.
+        </p>
+      </div>
+      <div class="mt-10">
+        <div class="grid grid-cols-5 md:grid-cols-7 md:gap-4">
+          <div class="col-span-5">
+            <p class="font-color-1 font-bold text-2xl">
+              FWO &#38; CWO Grant for a long stay abroad
+            </p>
+          </div>
+          <!-- <div class="flex flex-col col-span-2 justify-end">
+            <p class="text-left md:text-right text-gray-500">2021</p>
+          </div> -->
+        </div>
+        <!-- <p class="text-gray-500">Ghent University, Belgium</p> -->
+        <p class="text-lg pt-2 text-gray-900">
+          Obtained for work on coreference resolution and multilingual-learning
+          during a one year stay at Stanford University.
+        </p>
+      </div>
+      <div class="mt-10">
         <div class="grid grid-cols-5 md:grid-cols-7 md:gap-4">
           <div class="col-span-5">
             <p class="font-color-1 font-bold text-2xl">
@@ -84,7 +119,8 @@
         </div>
         <!-- <p class="text-gray-500">Ghent University, Belgium</p> -->
         <p class="text-lg pt-2 text-gray-900">
-          One of 9 finalists for the student of the year award hosted by the city of Ghent for my non-profit student voluntueering.
+          One of 9 finalists for the student of the year award hosted by the
+          city of Ghent for my non-profit student voluntueering.
         </p>
       </div>
       <div class="mt-10">
@@ -100,7 +136,9 @@
         </div>
         <!-- <p class="text-gray-500">Ghent University, Belgium</p> -->
         <p class="text-lg pt-2 text-gray-900">
-          Awarded an all-expenses-paid-for trip to China (Beijing and Shenzhen) and Hong Kong for two weeks as one of 10 selected Belgian Computer Science students.
+          Awarded an all-expenses-paid-for trip to China (Beijing and Shenzhen)
+          and Hong Kong for two weeks as one of 10 selected Belgian Computer
+          Science students.
         </p>
       </div>
     </div>
@@ -299,7 +337,9 @@
           develop the application.
           <br /><br />
           Studium will beta-launch September 2021 and will be released to all
-          UGhent students February 2022.
+          UGhent students February 2022. Code available
+          <a href="https://gitlab.com/vtkgent/studium" class="underline">here</a
+          >.
         </p>
       </div>
       <!-- <div class="mt-10">
@@ -344,7 +384,12 @@
           <span class="italic">GPT3</span>) together with
           <span class="italic">prompt engineering</span> to build an extremely
           data-efficient semantic parser to translate natural language inputs
-          into a format digestable by the Waylay system.
+          into a format digestable by the Waylay system. More information
+          <a
+            class="underline"
+            href="https://www.youtube.com/watch?v=mFOiGl0yTbg"
+            >here</a
+          >.
         </p>
       </div>
       <div class="mt-10">
@@ -433,7 +478,7 @@
     </div>
 
     <!-- Skills (new)  -->
-    <hr class="my-10" ref="line1dot5"/>
+    <hr class="my-10" ref="line1dot5" />
     <div ref="skills">
       <p class="font-color-1 opacity-80 font-bold text-lg mb-2">💻 Skills</p>
       <p class="font-color-1 font-bold text-2xl">
@@ -448,12 +493,13 @@
       <p class="text-gray-900 text-lg text-left">
         Tensorflow, PyTorch, Scikit-learn, Huggingface Transformers
       </p>
-      <p class="font-color-1 mt-10 font-bold text-2xl">Full Stack Web Development</p>
+      <p class="font-color-1 mt-10 font-bold text-2xl">
+        Full Stack Web Development
+      </p>
       <p class="text-gray-900 text-lg text-left">
         Vue.js, Nuxt.js, Vuetify, tailwind.css, Django, Flask, Firebase
       </p>
     </div>
-    
 
     <!-- Languages  -->
     <hr class="my-10" ref="line2" />
@@ -466,15 +512,15 @@
         </div>
         <div>
           <p class="font-color-1 font-bold text-2xl">English 🇬🇧</p>
-          <p class="text-gray-500">(C2) Proficient</p>
+          <p class="text-gray-500">Proficient</p>
         </div>
         <div>
           <p class="font-color-1 mt-5 font-bold text-2xl">French 🇫🇷</p>
-          <p class="text-gray-500">(B1) Intermediate</p>
+          <p class="text-gray-500">Intermediate</p>
         </div>
         <div>
           <p class="font-color-1 mt-5 font-bold text-2xl">German 🇩🇪</p>
-          <p class="text-gray-500">(B1) Intermediate</p>
+          <p class="text-gray-500">Intermediate</p>
         </div>
       </div>
     </div>
@@ -535,7 +581,6 @@ export default {
   mounted() {
     // const { topBanner, education, awards, experiences, skills, languages, line0, line1, line1dot5, line2 } =
     //   this.$refs;
-
     // timeline.from(
     //   topBanner,
     //   1,
@@ -596,7 +641,6 @@ export default {
     //   { x: -50, opacity: 0.0, ease: "power2.out" },
     //   "<0.10"
     // );
-
     // timeline.play();
   },
 };

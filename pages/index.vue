@@ -53,8 +53,8 @@
             class="opacity-30 inline mb-1"
           />
           <span class="opacity-80">
-            <!-- Ghent, Belgium / San Fransisco, U.S.A. -->
-            Ghent, Belgium
+            Ghent, Belgium / Stanford, U.S.A.
+            <!-- Ghent, Belgium -->
           </span>
         </p>
         <div class="hidden mt-5 flex-row md:flex">
@@ -214,10 +214,9 @@
       <div ref="text1" class="mt-4">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Short bio</p>
         <p class="text-lg font-color-1">
-          Hi! I’m a computer science engineer (major AI) passionate about
-          Machine Learning, Natural Language Processing and Web Design. I
-          recently graduated from Ghent University and started as a PhD student
-          at the
+          Hi! I’m a computer science engineer passionate about Machine Learning,
+          Natural Language Processing and Web Design. I recently graduated from
+          Ghent University and started as a PhD student at the
           <a class="underline" href="https://ugentt2k.github.io">
             Text to Knowledge</a
           >
@@ -231,11 +230,20 @@
             href="https://tdmeeste.github.io/publications.html"
           >
             prof. Thomas Demeester</a
+          >. I'm currently at the
+          <a class="underline" href="https://nlp.stanford.edu/">
+            Stanford NLP group</a
+          >
+          for one year under guidance of
+          <a href="https://web.stanford.edu/~cgpotts/" class="underline">
+            prof. Christopher Potts</a
           >. Learn more about me by
           <nuxt-link to="/resume" class="underline">
             viewing my resume</nuxt-link
           >
-          or continue reading about my projects and hobbies.
+          or continue reading about my
+          <nuxt-link to="/projects" class="underline"> projects</nuxt-link>
+          and hobbies.
         </p>
         <!-- <nuxt-link to="/resume">
           <p
@@ -279,7 +287,8 @@
         <p class="text-lg md:text-xl font-color-1 font-semibold">Projects</p>
         <p class="text-lg font-color-1">
           I enjoy working on small projects to learn additional skills or just
-          because I think they are fun. You can view some projects <nuxt-link class="underline" to="/projects">here</nuxt-link>.
+          because I think they are fun. You can view some projects
+          <nuxt-link class="underline" to="/projects">here</nuxt-link>.
         </p>
       </div>
 
@@ -332,7 +341,7 @@
       <div ref="text5" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Contact me!</p>
         <p class="text-lg font-color-1">
-          If you have any questions about me or my research feel free to message
+          If you have any questions, feel free to message
           me on
           <a href="https://twitter.com/KarelDoostrlnck" class="underline"
             >Twitter</a
