@@ -9,7 +9,7 @@
         :class="{ scrolled: !view.atTopOfPage }"
         class="fixed top-0 flex w-full h-14 items-center"
       >
-        <div class="flex w-11/12 md:w-6/7 xl:w-4/6 mx-auto">
+        <div class="flex w-11/12 md:w-5/6 xl:w-4/6 2xl:w-3/6 mx-auto">
           <!-- Non-Mobile links -->
           <nuxt-link to="/">
             <p class="text-xl font-color-1 font-semibold">
@@ -64,11 +64,11 @@
         </div>
       </nav>
       <!-- content  -->
-      <div class="w-11/12 md:w-5/6 xl:w-4/6 mx-auto">
+      <div class="w-11/12 md:w-5/6 xl:w-4/6 2xl:w-3/6 mx-auto">
         <nuxt />
       </div>
       <!-- Footer  -->
-      <footer class="w-11/12 md:w-5/6 xl:w-4/6 mx-auto mt-10 mb-5">
+      <footer class="w-11/12 md:w-5/6 xl:w-4/6 2xl:w-3/6 mx-auto mt-10 mb-5">
         <div class="flex justify-between">
           <div class="flex flex-col justify-around">
             <p class="text-sm text-gray-500">Designed and coded by me!</p>

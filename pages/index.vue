@@ -22,7 +22,6 @@
               w-52
               md:h-60 md:w-60
               rounded-full
-              drop-and-inner-shadows
             "
             alt="profile-picture"
           ></div>
@@ -44,7 +43,7 @@
           <span class="font-bold">Hello there!</span> I’m a PhD student in
           <span class="font-bold">NLP</span> at Ghent University. I'm passionate
           about <span class="font-bold">Machine Learning</span>, and
-          <span class="font-bold">Web Development</span>.
+          <span class="font-bold">Web Development</span>. Currently, I'm a visiting researcher at the <span class="font-bold">Stanford NLP Group</span>.
         </p>
         <p class="text-center md:text-left mt-5 md:mt-4">
           <img
@@ -66,7 +65,6 @@
                 h-10
                 rounded-full
                 text-white text-lg
-                drop-shadows
                 focus:outline-none
                 transform
                 ease-in
@@ -88,7 +86,6 @@
                 rounded-full
                 font-color-2
                 text-lg
-                drop-shadows
                 focus:outline-none
                 transform
                 ease-in
@@ -122,7 +119,6 @@
               h-10
               rounded-full
               text-white text-lg
-              drop-shadows
               md:mr-5
               transform
               ease-in
@@ -143,7 +139,6 @@
               rounded-full
               font-color-2
               text-lg
-              drop-shadows
               transform
               ease-in
               duration-75
@@ -210,8 +205,64 @@
       </div>
     </div> -->
 
-    <div id="about" ref="about" class="flex flex-col text-left pt-10">
-      <div ref="text1" class="mt-4">
+    <div id="about" ref="about" class="flex flex-col text-left ">
+      <div ref="update">
+        <div
+          ref="topBanner"
+          class="
+            border-color-1
+            bg-color-2
+            border-3
+            rounded-xl
+            p-6
+            mt-10
+            text-lg
+          "
+        >
+          <p class="font-color-1 opacity-80 font-bold text-lg md:text-xl">Updates</p>
+          <ul class="space-y-1">
+            <li>
+              <span class="text-gray-500 mr-2">July '22</span>
+              Gave a talk about CEBaB at the Stanford NLP Group.
+              <a
+                href="/assets/cebab-nlp-lunch-Karel.pdf"
+                download="cebab-nlp-lunch-Karel"
+                class="underline"
+              >
+                Slides available here.</a
+              >
+            </li>
+            <li>
+              <span class="text-gray-500 mr-2">May '22</span>
+              <a href="https://cebabing.github.io/CEBaB/" class="underline">
+                New paper on arXiv!</a
+              >
+              CEBaB: Estimating the Causal Effects of Real-World Concepts on NLP
+              Model Behavior.
+            </li>
+            <li>
+              <span class="text-gray-500 mr-2">Jan. '22</span>
+              I'm currently at the
+              <a class="underline" href="https://nlp.stanford.edu/">
+                Stanford NLP group</a
+              >
+              for one year under guidance of
+              <a href="https://web.stanford.edu/~cgpotts/" class="underline">
+                prof. Christopher Potts</a
+              >.
+            </li>
+          </ul>
+          <!-- <p class="font-color-1">
+            I am an incoming PhD student at the
+            <a href="https://ugentt2k.github.io" class="underline">
+              Text-to-Knowledge group</a
+            >. My research interests are mainly situated in the field of Natural
+            Language Processing: coreference resolution, multilingual NLP,
+            domain adaptation and meta-learning applied to NLP.
+          </p> -->
+        </div>
+      </div>
+      <div ref="text1" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Short bio</p>
         <p class="text-lg font-color-1">
           Hi! I’m a computer science engineer passionate about Machine Learning,
@@ -341,8 +392,7 @@
       <div ref="text5" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Contact me!</p>
         <p class="text-lg font-color-1">
-          If you have any questions, feel free to message
-          me on
+          If you have any questions, feel free to message me on
           <a href="https://twitter.com/KarelDoostrlnck" class="underline"
             >Twitter</a
           >
@@ -392,6 +442,7 @@ export default {
       bio,
       buttons,
       featured,
+      update,
       text1,
       text2,
       text3,
@@ -432,10 +483,17 @@ export default {
     //   "-=1.0"
     // );
     timeline.from(
+      update,
+      1,
+      { x: -50, opacity: 0.0, ease: "power2.out" },
+      "-=1."
+    );
+    timeline.from(
       text1,
       1,
       { x: -50, opacity: 0.0, ease: "power2.out" },
-      "-=1.5"
+      // "-=1.5"
+      "<0.25"
     );
     timeline.from(
       text2,
@@ -473,7 +531,8 @@ export default {
 /* Hack to be able to render inner shadow */
 .avatar-img {
   /* background-image: url("/assets/karel_cropped_square-min.jpg"); */
-  background-image: url("/assets/karel_background-min.jpg");
+  /* background-image: url("/assets/karel_background-min.jpg"); */
+  background-image: url("/assets/karel_background_2.png");
   background-size: contain;
   /* border: 8px solid  #FFF7ED; */
   /* border: 4px solid  #6B5B7A; */
