@@ -42,8 +42,8 @@
         <p>
           <span class="font-bold">Hello there!</span> I’m a PhD student in
           <span class="font-bold">NLP</span> at Ghent University. I'm passionate
-          about <span class="font-bold">Machine Learning</span>, and
-          <span class="font-bold">Web Development</span>. Currently, I'm a visiting researcher at the <span class="font-bold">Stanford NLP Group</span>.
+          about <span class="font-bold">Machine Learning</span> and
+          <span class="font-bold">Explainable AI</span>. Currently, I'm a visiting researcher at the <span class="font-bold">Stanford NLP Group</span>.
         </p>
         <p class="text-center md:text-left mt-5 md:mt-4">
           <img
@@ -222,6 +222,10 @@
           <p class="font-color-1 opacity-80 font-bold text-lg md:text-xl">Updates</p>
           <ul class="space-y-1">
             <li>
+              <span class="text-gray-500 mr-2">Sep. '22</span>
+              Paper (CEBaB) got accepted to NeurIPS 2022!
+            </li>
+            <li>
               <span class="text-gray-500 mr-2">July '22</span>
               Gave a talk about CEBaB at the Stanford NLP Group.
               <a
@@ -265,9 +269,8 @@
       <div ref="text1" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Short bio</p>
         <p class="text-lg font-color-1">
-          Hi! I’m a computer science engineer passionate about Machine Learning,
-          Natural Language Processing and Web Design. I recently graduated from
-          Ghent University and started as a PhD student at the
+          Hi! I’m a firt-year PhD student passionate about Machine Learning,
+          Natural Language Processing and explainable/causal AI. I work at the
           <a class="underline" href="https://ugentt2k.github.io">
             Text to Knowledge</a
           >
@@ -288,13 +291,7 @@
           for one year under guidance of
           <a href="https://web.stanford.edu/~cgpotts/" class="underline">
             prof. Christopher Potts</a
-          >. Learn more about me by
-          <nuxt-link to="/resume" class="underline">
-            viewing my resume</nuxt-link
-          >
-          or continue reading about my
-          <nuxt-link to="/projects" class="underline"> projects</nuxt-link>
-          and hobbies.
+          >.
         </p>
         <!-- <nuxt-link to="/resume">
           <p
@@ -313,9 +310,10 @@
       <div ref="text2" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Research</p>
         <p class="text-lg font-color-1">
-          As mentioned in my short bio, I just started as a PhD student. I'm
-          intruiged by Machine Learning and Artificial Intelligence, but Natural
-          Language Processing specifically captures my interest.
+          Currently, my research focusses on explainable, causally-motivated AI. Applying ideas from causal inference to machine learning, I aim to develop more interpretable and robust models. My overall goal is to build techniques that allow for intuitive inspection and editing of model behavior. 
+
+          
+          At the Stanford NLP group, I've been working on a causally-motivated benchmark for interpretability techniques. Currently, we are using this new resource to guide the development of new state-of-the-art model explanation techniques.
           <nuxt-link to="/research" class="underline">
             View my initial work</nuxt-link
           >.
@@ -337,7 +335,7 @@
       <div ref="text3" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Projects</p>
         <p class="text-lg font-color-1">
-          I enjoy working on small projects to learn additional skills or just
+          I'm a hobbyist web-developer (full stack). I enjoy casually working on small projects to learn additional skills or just
           because I think they are fun. You can view some projects
           <nuxt-link class="underline" to="/projects">here</nuxt-link>.
         </p>
@@ -375,15 +373,12 @@
       <div ref="text4" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Hobbies</p>
         <p class="text-lg font-color-1">
-          Cooking and going to the fitness tend to fill up my free time during
-          the week. When I have more time on my hands, you can find me hiking,
-          camping or skiing. Web design and development is also a hobby I've
-          been investing a lot of time into recently. While I am certainly not a
-          bookworm, I do enjoy reading.
+          Some other hobbies include cooking, camping and occasionally skiing. Some recent books I enjoyed include
           <span class="italic">The Worldly Philosophers</span>,
           <span class="italic">Factfulness</span>,
-          <span class="italic">21 lessons for the 21st century</span>, and
-          <span class="italic">Sapiens</span> were all books I recently enjoyed.
+          <span class="italic">21 lessons for the 21st century</span>,
+          <span class="italic">Sapiens</span>, and
+          <span class="italic">Educated</span>
           Previously, I spent a lot of my time practicing music. I play
           classical guitar and I sung in a choir, which gave me the opportunity
           to visit Mexico, Japan, Bulgaria, and Rome.
@@ -392,7 +387,7 @@
       <div ref="text5" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Contact me!</p>
         <p class="text-lg font-color-1">
-          If you have any questions, feel free to message me on
+          Feel free to reach out on
           <a href="https://twitter.com/KarelDoostrlnck" class="underline"
             >Twitter</a
           >
@@ -401,7 +396,7 @@
             href="https://www.linkedin.com/in/karel-doosterlinck/"
             class="underline"
             >LinkedIn</a
-          >.
+          >. My work email is <span class="italic">karel[dot]doosterlinck[at]ugent[dot]be</span>.
         </p>
       </div>
     </div>

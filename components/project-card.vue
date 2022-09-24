@@ -22,7 +22,7 @@
       </div>
       <div>
         <p class="text-gray-500">{{ madeWith }}</p>
-        <a class="underline text-gray-500" :href="link" target="_blank"
+        <a v-if="link" class="underline text-gray-500" :href="link" target="_blank"
           >Project link</a
         >
         <a

@@ -1,6 +1,4 @@
 module.exports = {
-    purge: [],
-    darkMode: false, // or 'media' or 'class'
     theme: {
       extend: {},
     },
@@ -8,5 +6,11 @@ module.exports = {
       extend: {},
     },
     plugins: [],
+    content: [
+      './pages/**/*.{html,js,vue}',
+      './components/**/*.{html,js,vue}',
+      './pages/*.{html,js,vue}',
+      './components/*.{html,js,vue}',
+    ],
   }
   

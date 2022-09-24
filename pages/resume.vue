@@ -322,7 +322,7 @@
           </div>
           <div class="flex flex-col col-span-2 justify-end">
             <p class="text-left md:text-right text-gray-500">
-              Aug 2020 - present
+              Aug 2020 - Sept 2022
             </p>
           </div>
         </div>
@@ -336,8 +336,7 @@
           internship, setting priorities for the development team, and helping
           develop the application.
           <br /><br />
-          Studium will beta-launch September 2021 and will be released to all
-          UGhent students February 2022. Code available
+          Our code is opensourced
           <a href="https://gitlab.com/vtkgent/studium" class="underline">here</a
           >.
         </p>
@@ -363,7 +362,7 @@
         <div class="grid grid-cols-5 md:grid-cols-7 md:gap-4">
           <div class="col-span-5">
             <p class="font-color-1 font-bold text-2xl">
-              NLP Research Internship
+              NLP Internship
             </p>
           </div>
           <div class="flex flex-col col-span-2 justify-end">
@@ -384,12 +383,7 @@
           <span class="italic">GPT3</span>) together with
           <span class="italic">prompt engineering</span> to build an extremely
           data-efficient semantic parser to translate natural language inputs
-          into a format digestable by the Waylay system. More information
-          <a
-            class="underline"
-            href="https://www.youtube.com/watch?v=mFOiGl0yTbg"
-            >here</a
-          >.
+          into a format digestable by the Waylay system.
         </p>
       </div>
       <div class="mt-10">

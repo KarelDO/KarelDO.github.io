@@ -34,10 +34,19 @@
       <project-card
         title="My personal website"
         category="Web development"
-        image="personal-screenshot.jpg"
+        image="personal-screenshot.png"
         description="Featuring my portfolio on my portfolio site? Meta."
         madeWith="Made with Vue.js and Tailwind."
         link="https://kareldoosterlinck.com/"
+      >
+      </project-card>
+      <project-card
+        title="A friend's personal website"
+        category="Web development"
+        image="portfolio-screenshot.png"
+        description="No link provided for anonymity purposes."
+        madeWith="Made with Vue.js and Tailwind."
+        link=""
       >
       </project-card>
     </div>
