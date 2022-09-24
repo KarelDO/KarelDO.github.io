@@ -1,1 +1,3 @@
-git subtree push --prefix dist origin gh-pages
+yarn generate
+mv dist docs
+push

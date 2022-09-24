@@ -28,7 +28,7 @@
           CEBaB: Estimating the Causal Effects of Real-World Concepts on NLP Model Behavior
         </p>
         <p class="text-gray-500">
-          arXiv preprint, 2022
+          NeurIPS, 2022
         </p>
         <p class="text-lg pt-2 text-gray-900">
           Abraham, Eldar David and <span class="underline">D'Oosterlinck, Karel</span> and Feder, Amir and Gat, Yair Ori and Geiger, Atticus and Potts, Christopher and Reichart, Roi and Wu, Zhengxuan. All authors equal contribution.
