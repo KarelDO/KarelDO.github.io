@@ -17,9 +17,9 @@
             </p>
           </nuxt-link>
           <div class="hidden md:flex ml-auto space-x-6">
-            <nuxt-link to="/resume">
+            <!-- <nuxt-link to="/resume">
               <p class="text-lg font-color-1 hover:underline">Resume</p>
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link to="/research">
               <p class="text-lg font-color-1 hover:underline">Research</p>
             </nuxt-link>
@@ -130,9 +130,9 @@
         <nuxt-link to="/" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Home</p>
         </nuxt-link>
-        <nuxt-link to="/resume" @click.native="drawerVisible = false">
+        <!-- <nuxt-link to="/resume" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Resume</p>
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link to="/research" @click.native="drawerVisible = false">
           <p class="text-lg font-color-1 hover:underline">Research</p>
         </nuxt-link>

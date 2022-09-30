@@ -25,12 +25,12 @@
             "
             alt="profile-picture"
           ></div>
-          <img
+          <!-- <img
             ref="wavingHand"
             src="/assets/waving-hand-sign_1f44b.png"
             alt="waving-hand"
             class="-mt-20 -ml-5 h-20 w-20 md:h-24 md:w-24 png-drop-shadow"
-          />
+          /> -->
         </div>
       </div>
 
@@ -57,7 +57,7 @@
           </span>
         </p>
         <div class="hidden mt-5 flex-row md:flex">
-          <nuxt-link to="/resume">
+          <nuxt-link to="/research">
             <button
               class="
                 bg-color-1
@@ -73,10 +73,10 @@
                 md:mr-5
               "
             >
-              View resume
+              View research
             </button>
           </nuxt-link>
-          <nuxt-link to="/projects">
+          <!-- <nuxt-link to="/resume">
             <button
               class="
                 border-color-1
@@ -93,9 +93,9 @@
                 hover:scale-110
               "
             >
-              View projects
+              View resume
             </button>
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
       </div>
       <!-- Call to action -->
@@ -112,7 +112,7 @@
       >
         <nuxt-link to="/resume">
           <button
-            to="/resume"
+            to="/research"
             class="
               bg-color-1
               w-40
@@ -126,10 +126,10 @@
               hover:scale-110
             "
           >
-            View resume
+            View research
           </button>
         </nuxt-link>
-        <nuxt-link to="/projects">
+        <!-- <nuxt-link to="/research">
           <button
             class="
               border-color-1
@@ -145,9 +145,9 @@
               hover:scale-110
             "
           >
-            View projects
+            View research
           </button>
-        </nuxt-link>
+        </nuxt-link> -->
         <button
           @click="scrollToAbout()"
           class="
@@ -223,6 +223,13 @@
           <ul class="space-y-1">
             <li>
               <span class="text-gray-500 mr-2">Sep. '22</span>
+              <a href="https://arxiv.org/abs/2209.14279" class="underline">
+                New paper on arXiv!</a
+              >
+              Causal Proxy Models for Concept-Based Model Explanations
+            </li>
+            <li>
+              <span class="text-gray-500 mr-2">Sep. '22</span>
               Paper (CEBaB) got accepted to NeurIPS 2022!
             </li>
             <li>
@@ -238,7 +245,7 @@
             </li>
             <li>
               <span class="text-gray-500 mr-2">May '22</span>
-              <a href="https://cebabing.github.io/CEBaB/" class="underline">
+              <a href="https://arxiv.org/abs/2205.14140" class="underline">
                 New paper on arXiv!</a
               >
               CEBaB: Estimating the Causal Effects of Real-World Concepts on NLP
@@ -332,14 +339,14 @@
         </nuxt-link> -->
       </div>
 
-      <div ref="text3" class="mt-8">
+      <!-- <div ref="text3" class="mt-8">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Projects</p>
         <p class="text-lg font-color-1">
           I'm a hobbyist web-developer (full stack). I enjoy casually working on small projects to learn additional skills or just
           because I think they are fun. You can view some projects
           <nuxt-link class="underline" to="/projects">here</nuxt-link>.
         </p>
-      </div>
+      </div> -->
 
       <!-- <div ref="text3" class="my-4">
         <p class="text-lg md:text-xl font-color-1 font-semibold">Projects</p>

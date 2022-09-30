@@ -25,6 +25,59 @@
 
       <div>
         <p class="font-color-1 font-bold text-2xl">
+          Causal Proxy Models for Concept-Based Model Explanations
+        </p>
+        <p class="text-gray-500">
+          Preprint, 2022
+        </p>
+        <p class="text-lg pt-2 text-gray-900">
+          Zhengxuan Wu*, <span class="underline">Karel D'Oosterlinck*</span>, Atticus Geiger*, Amir Zur, Christopher Potts. Equal contribution* .
+        </p>
+        <div class="flex space-x-3 mt-2">
+          <a href="https://github.com/frankaging/Causal-Proxy-Model" target="_blank">
+            <div
+              class="
+                border-color-1
+                bg-color-2
+                border-4
+                rounded-lg
+                p-2
+                transform
+                ease-in
+                duration-75
+                hover:scale-110
+              "
+            >
+              <img src="/assets/code-icon.png" class="w-6 inline-block" />
+              <span class="col-span-2"> code</span>
+            </div>
+          </a>
+          <a
+            href="https://arxiv.org/abs/2209.14279"
+            target="_blank"
+          >
+            <div
+              class="
+                border-color-1
+                bg-color-2
+                border-4
+                rounded-lg
+                p-2
+                transform
+                ease-in
+                duration-75
+                hover:scale-110
+              "
+            >
+              <img src="/assets/pdf-icon.png" class="w-6 inline-block" />
+              <span class="col-span-2"> pdf</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <p class="font-color-1 font-bold text-2xl mt-10">
           CEBaB: Estimating the Causal Effects of Real-World Concepts on NLP Model Behavior
         </p>
         <p class="text-gray-500">
