@@ -72,7 +72,7 @@
         <div class="flex justify-between">
           <div class="flex flex-col justify-around">
             <p class="text-sm text-gray-500">Designed and coded by me!</p>
-            <p class="text-sm text-gray-500">© 2021 Karel D'Oosterlinck</p>
+            <p class="text-sm text-gray-500">© 2022 Karel D'Oosterlinck</p>
           </div>
           <div class="text-right">
             <a
@@ -265,14 +265,14 @@ nav.scrolled {
 
 .drawer-mask {
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   width: 0; /* initially */
   height: 100vh;
   background: #000;
   opacity: 0.3;
   z-index: 199;
-  transition: ease 0.3s;
+  transition: opacity ease 0.3s;
 }
 
 a.nuxt-link-exact-active {
