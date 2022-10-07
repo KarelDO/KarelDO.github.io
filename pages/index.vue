@@ -31,6 +31,7 @@
           <span class="font-bold">Explainable AI</span>. Currently, I'm a visiting researcher at the <span
             class="font-bold">Stanford NLP Group</span>.
         </p>
+        <p class="mt-4 text-gray-500">Contact: karel[dot]doosterlinck[at]ugent[dot]be</p>
         <!-- <p class="mt-4">
           <img src="/assets/location.svg" alt="location-icon" class="opacity-30 inline mb-1" />
           <span class="opacity-80">
@@ -365,7 +366,7 @@ export default {
 .avatar-img {
   /* background-image: url("/assets/karel_cropped_square-min.jpg"); */
   /* background-image: url("/assets/karel_background-min.jpg"); */
-  background-image: url("/assets/karel_background_2.png");
+  background-image: url("/assets/karel_background_2-min.png");
   background-size: contain;
   /* border: 8px solid  #FFF7ED; */
   /* border: 4px solid  #6B5B7A; */
