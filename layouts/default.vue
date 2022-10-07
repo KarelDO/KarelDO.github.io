@@ -16,7 +16,7 @@
               Karel D'Oosterlinck
             </p>
           </nuxt-link>
-          <div class="hidden md:flex ml-auto space-x-6">
+          <div class="hidden sm:flex ml-auto space-x-6">
             <!-- <nuxt-link to="/resume">
               <p class="text-lg font-color-1 hover:underline">Resume</p>
             </nuxt-link> -->
@@ -56,7 +56,7 @@
             </a>
           </div>
           <!-- Mobile Hamburger menu -->
-          <div class="md:hidden flex ml-auto space-x-6 items-center">
+          <div class="sm:hidden flex ml-auto space-x-6 items-center">
             <button @click="drawerVisible = true">
               <img class="w-6 h-6" src="/assets/menu.png" alt="menu" />
             </button>
@@ -106,7 +106,7 @@
 
     <!-- Mobile side drawer -->
     <div
-      class="right-drawer md:hidden"
+      class="right-drawer sm:hidden"
       :style="{
         width: drawerVisible ? '40vw' : '0',
         paddingLeft: drawerVisible ? '10px' : '0',
@@ -182,7 +182,7 @@
     <!-- Mobile side drawer mask -->
     <div
       @click="drawerVisible = false"
-      class="drawer-mask md:hidden"
+      class="drawer-mask sm:hidden"
       :style="{
         width: drawerVisible ? '100vw' : '0vw',
         opacity: drawerVisible ? '0.6' : '0',
