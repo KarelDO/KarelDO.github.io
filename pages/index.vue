@@ -93,6 +93,8 @@
                 <td>Gave a talk about CEBaB at the Stanford NLP Group.
                   <a href="/assets/cebab-nlp-lunch-Karel.pdf" download="cebab-nlp-lunch-Karel" class="underline">
                     Slides available here.</a>
+                  <a href="https://www.youtube.com/watch?v=xa5ttoN-Zic" download="cebab-nlp-lunch-Karel" class="underline">
+                    Video available here.</a>
                 </td>
               </tr>
               <tr>

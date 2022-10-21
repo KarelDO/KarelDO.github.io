@@ -156,6 +156,25 @@
               <span class="col-span-2"> website</span>
             </div>
           </a>
+          <a
+            href="https://youtu.be/xa5ttoN-Zic"
+            target="_blank"
+          >
+            <div
+              class="
+                bg-color-2
+                rounded-lg
+                px-2
+                transform
+                ease-in
+                duration-75
+                hover:scale-110
+              "
+            >
+              <!-- <img src="/assets/pdf-icon.png" class="w-6 inline-block" /> -->
+              <span class="col-span-2"> video </span>
+            </div>
+          </a>
         </div>
       </div>
 
