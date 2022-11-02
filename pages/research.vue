@@ -26,6 +26,36 @@
       </div>
       <div>
         <p class="text-gray-500">
+          The Stanford AI Lab Blog, 2022
+        </p>
+        <p class="font-color-1 font-bold text-lg">
+          Faithful, interpretable model explanations via causal abstraction
+        </p>
+        <p class="text-md text-gray-900">
+          Atticus Geiger, Zhengxuan Wu, <span class="underline">Karel D'Oosterlinck</span>, Elisa Kreiss, Noah D. Goodman, Thomas Icard, and Christopher Potts.
+        </p>
+        <div class="flex space-x-2 mt-1">
+          <a href="https://ai.stanford.edu/blog/causal-abstraction/" target="_blank">
+            <div
+              class="
+                bg-color-2
+                rounded-lg
+                px-2
+                transform
+                ease-in
+                duration-75
+                hover:scale-110
+              "
+            >
+              <!-- <img src="/assets/code-icon.png" class="w-6 inline-block" /> -->
+              <span class="col-span-2"> blogpost </span>
+            </div>
+          </a>
+        </div>
+      </div>
+ 
+      <div>
+        <p class="text-gray-500">
           Preprint, 2022
         </p>
         <p class="font-color-1 font-bold text-lg">
